@@ -243,7 +243,7 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   border-radius: 5px;
-  padding: 15px 40px 15px;
+  padding: 15px 15px 15px;
   transition: all 0.5s linear;
   overflow: hidden;
   z-index: 1;
@@ -3256,16 +3256,17 @@ ul {
   position: absolute;
   top: 85%;
   bottom: auto;
-  left: auto;
-  /*right: 50%;*/
+  /*left: auto;*/
+  right: 15px;
   display: flex;
   text-align: center;
   align-items: flex-end;
   flex-direction: row;
   -webkit-transform: translate(50%, calc(-50% + 0px));
   transform: translate(50%, calc(-50% + 0px));
-  max-width: 1200px;
-  padding: 0 15px;
+  max-width: -webkit-fill-available;
+    min-width: auto;
+  padding: 0 0px;
   height: 0;
   line-height: 0;
   z-index: 10;
@@ -4268,7 +4269,7 @@ ul {
   left: 0;
   right: 0;
   content: "";
-  background-color: rgba(var(--roofsie-base-rgb), .90);
+  background-color: rgba(var(--roofsie-base-rgb), .10);
   border-radius: var(--roofsie-bdr-radius);
   -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
@@ -4309,7 +4310,7 @@ ul {
   position: absolute;
   left: 60px;
   bottom: 60px;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(-50px);
   transition: all 700ms ease;
   z-index: 2;
@@ -5015,10 +5016,10 @@ ul {
 
 .cta-one__img-box {
   position: absolute;
-  top: -40px;
+  top: 0px;
   bottom: -1px;
   left: 0;
-  max-width: 694px;
+  max-width: 920px;
   width: 100%;
 }
 
@@ -5027,8 +5028,8 @@ ul {
   top: 0;
   right: -19px;
   content: "";
-  border-left: 17px solid transparent;
-  border-right: 18px solid transparent;
+  /*border-left: 17px solid transparent;
+  border-right: 18px solid transparent;*/
   border-bottom: 40px solid var(--roofsie-black);
   z-index: 2;
   transform: rotate(-1deg);
@@ -10539,7 +10540,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 20px;
-  color: var(--roofsie-black);
+  color: #fff;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
