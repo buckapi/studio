@@ -5423,7 +5423,7 @@ ul {
 .site-footer__bottom-text {
  font-size: 18px;
     color: #ccc;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .site-footer__bottom-text a {
@@ -8132,7 +8132,7 @@ ul {
   position: relative;
   display: block;
   background-color:#efb810;
-  padding: 117px 0 30px;
+  padding: 117px 0 0px;
   counter-reset: count;
   z-index: 1;
 }
@@ -8268,7 +8268,7 @@ ul {
   font-weight: 800;
   line-height: 28px;
   color: var(--roofsie-white);
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .process__text {
