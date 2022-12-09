@@ -1523,6 +1523,7 @@
 
     .main-menu__left {
         float: right;
+        margin-right: 10px;
     }
 
     .main-menu__right {

@@ -485,6 +485,7 @@ ul {
   top: 10px;
   left: 60px;
   z-index: 2;
+  
 }
 
 .main-header__top {
@@ -660,7 +661,7 @@ ul {
 
 .main-menu__left {
   display: block;
-  float: left;
+  float: right;
 }
 
 .main-menu__main-menu-box {
