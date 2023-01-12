@@ -43,10 +43,10 @@
 
 body {
   font-family: var(--roofsie-font);
-  color: #fcfcfc;
+  color: #9e9e9e; /*#fcfcfc;*/
   font-size: 20px;
     line-height: 30px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 body.locked {
